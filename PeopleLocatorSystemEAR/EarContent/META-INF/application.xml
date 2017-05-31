@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="6" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd">
+ <display-name>PeopleLocatorSystemEAR</display-name>
+ <module id="Module_1496248646801">
+ 	<web>
+ 		<web-uri>PeopleLocatorSystemWeb.war</web-uri>
+ 		<context-root>PeopleLocatorSystemWeb</context-root>
+ 	</web>
+ </module>
+ <module id="Module_1496248726591">
+ 	<web>
+ 		<web-uri>PeopleLocatorSystemCore.war</web-uri>
+ 		<context-root>PeopleLocatorSystemCore</context-root>
+ 	</web>
+ </module> 
+ </application> 
